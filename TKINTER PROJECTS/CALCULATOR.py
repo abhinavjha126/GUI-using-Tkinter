@@ -32,7 +32,7 @@ root.title("CALCULATOR")
 root.wm_iconbitmap("1.png")
 root.configure(background="pink")
 
-Label(root,text="KABALI,S CALCULATOR",fg="black",font="comicsansms 30 bold",bg="pink").pack(fill=X)
+Label(root,text="KABALI'S CALCULATOR",fg="black",font="comicsansms 30 bold",bg="pink").pack(fill=X)
 a=StringVar()
 a.set("")
 b=Entry(root,textvar=a,font="lucida 40 bold")
